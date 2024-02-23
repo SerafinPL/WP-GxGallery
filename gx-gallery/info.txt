@@ -1,0 +1,122 @@
+.site-description{
+	color: #fff!important;
+}
+
+.wp-block-post-excerpt__more-link{
+	display:none;
+}
+
+#post-742 .featured-media{
+		display:none;
+
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+	
+}
+
+.entry-content {
+  padding-top: 75px;
+}
+
+
+.wp-block-latest-posts__featured-image img {
+   margin: auto;
+}
+
+ul.wp-block-latest-posts__list li{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.singular .featured-media {
+  margin-top: 0;
+ 
+  padding-bottom: 5px!important;
+  padding-top: 50px!important;
+}
+
+
+.wp-block-post-template > li {
+  margin-top: 0;
+  margin-bottom: 225px;
+}
+
+.singular .entry-header{
+	padding: 0 0 50px !important;
+}
+
+.post-inner {
+  padding-top: 0.5rem !important;
+}
+
+.wp-block-post-date{
+	display: none;
+}
+
+header.entry-header h2.entry-title a{
+	text-decoration: underline;
+}
+
+/*POPRAWA WYSWIETLANIA OBRAZU POSTA*/
+.singular .featured-media {
+    margin-top: 0;
+    background-color: #fff;
+    padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+.singular .featured-media::before {
+    content: none; 
+    
+}
+
+.powered-by-wordpress{display:none;}
+
+.archive-title .color-accent{display:none;}
+
+
+/* LINIK NA CZARNYNM menu button*/
+
+.site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
+	color: #e890a9;
+}
+
+/* TYTULY  KROPKI W MENU*/
+.header-footer-group, {
+	color: #fff;
+}
+
+
+ body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
+    color: #ff8f00;
+}
+
+/* NO BORDERS */
+.header-footer-group pre, .header-footer-group fieldset, .header-footer-group input, .header-footer-group textarea, .header-footer-group table, .header-footer-group table *, .footer-nav-widgets-wrapper, #site-footer, .menu-modal nav *, .footer-widgets-outer-wrapper, .footer-top,
+.modal-menu > li:last-child {
+	border-color: #fff;
+	border-width:0px;
+}
+
+
+/* LINIK NA CZARNYNM*/
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
+color: #e890a9;
+}
+
+/* LINIK NA tle*/
+.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {
+color: #ff8f00;
+}
+
+/* SOCJALE TLO*/
+.social-icons a {
+    background: #fff;
+	cursor: auto!important;
+
+}
+
+.social-icons a, #site-footer button:not(.toggle), #site-footer .button, #site-footer .faux-button, #site-footer .wp-block-button__link, #site-footer .wp-block-file__button, #site-footer input[type="button"], #site-footer input[type="reset"], #site-footer input[type="submit"] {
+    background-color: #fff;
+}

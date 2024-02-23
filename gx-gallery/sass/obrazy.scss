@@ -1,0 +1,68 @@
+ .site-obrazy div.entry-content div.wp-block-query,
+ div.obrazy-kolekcja {
+
+     ul {
+         margin-top: 0rem;
+
+         li {
+             h2 a {
+                 margin: 1rem 1vw 1rem;
+                 font-size: 3.5rem;
+             }
+
+             div.wp-block-post-excerpt {
+                 display: none;
+             }
+         }
+     }
+
+
+     @media (min-width: 600px) {
+
+         ul {
+             li {
+                 h2 a {
+
+                     font-size: 2rem;
+                     min-height: 7rem;
+                     display: flex;
+                     align-items: end;
+                 }
+             }
+         }
+     }
+
+     @media (min-width: 750px) {
+         ul {
+             li {
+                 h2 a {
+                     font-size: 2.5rem;
+                     min-height: 7.5rem;
+                 }
+             }
+         }
+     }
+
+     @media (min-width: 1000px) {
+         ul {
+             li {
+                 h2 a {
+                     font-size: 3rem;
+                     min-height: 8rem;
+                 }
+             }
+         }
+     }
+
+     @media (min-width: 1400px) {
+         ul {
+             li {
+                 h2 a {
+                     font-size: 4rem;
+                     min-height: 9.5rem;
+                 }
+             }
+         }
+     }
+
+ }

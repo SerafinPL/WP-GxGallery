@@ -1,0 +1,14 @@
+
+
+//  bez Podkreśleń linków
+
+.primary-menu a:hover, 
+.primary-menu a:focus,
+.primary-menu .current_page_ancestor,
+a,
+a:hover,
+a:active,
+a:visited {
+  border: 0 !important;
+  text-decoration: none !important;
+}

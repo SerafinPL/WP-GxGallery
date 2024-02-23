@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* 
+Theme Name:		 gx gallery
+Description:	 gx gallery is a child theme of twentytwenty, created by ChildTheme-Generator.com
+Author:			 Kuba Koder = Jakub Grzegorzek
+Author URI:		 http://kubakoder.pl
+Template:		 twentytwenty
+Version:		 1.5.4
+Text Domain:	 gx-gallery
+*/
+/*  INCLUDES */
+.site-obrazy div.entry-content div.wp-block-query ul,
+div.obrazy-kolekcja ul {
+  margin-top: 0rem;
+}
+.site-obrazy div.entry-content div.wp-block-query ul li h2 a,
+div.obrazy-kolekcja ul li h2 a {
+  margin: 1rem 1vw 1rem;
+  font-size: 3.5rem;
+}
+.site-obrazy div.entry-content div.wp-block-query ul li div.wp-block-post-excerpt,
+div.obrazy-kolekcja ul li div.wp-block-post-excerpt {
+  display: none;
+}
+@media (min-width: 600px) {
+  .site-obrazy div.entry-content div.wp-block-query ul li h2 a,
+  div.obrazy-kolekcja ul li h2 a {
+    font-size: 2rem;
+    min-height: 7rem;
+    display: flex;
+    align-items: end;
+  }
+}
+@media (min-width: 750px) {
+  .site-obrazy div.entry-content div.wp-block-query ul li h2 a,
+  div.obrazy-kolekcja ul li h2 a {
+    font-size: 2.5rem;
+    min-height: 7.5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .site-obrazy div.entry-content div.wp-block-query ul li h2 a,
+  div.obrazy-kolekcja ul li h2 a {
+    font-size: 3rem;
+    min-height: 8rem;
+  }
+}
+@media (min-width: 1400px) {
+  .site-obrazy div.entry-content div.wp-block-query ul li h2 a,
+  div.obrazy-kolekcja ul li h2 a {
+    font-size: 4rem;
+    min-height: 9.5rem;
+  }
+}
+
+.primary-menu a:hover,
+.primary-menu a:focus,
+.primary-menu .current_page_ancestor,
+a,
+a:hover,
+a:active,
+a:visited {
+  border: 0 !important;
+  text-decoration: none !important;
+}
+
+* {
+  font-family: "Eczar", serif !important;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content cite,
+.entry-content figcaption,
+.entry-content table,
+.entry-content address,
+.entry-content .wp-caption-text,
+.entry-content .wp-block-file {
+  font-family: "Eczar", serif !important;
+}
+
+.header-footer-group,
+body:not(.overlay-header) #site-header .toggle,
+.menu-modal .toggle {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+#site-content article {
+  margin-top: -1rem;
+}
+
+li.post-date.meta-wrapper,
+li.post-sticky.meta-wrapper {
+  display: none;
+}
+
+.entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  /* width: 98vw; */
+  /* max-width: 98vw; */
+  padding: 0 1vw;
+  margin: 0 auto;
+}
+
+.entry-content > iframe {
+  width: 98vw;
+  max-width: 98vw !important;
+  padding: 0 1vw;
+  margin: 0 auto;
+}
+
+body.template-full-width .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+  width: 98vw !important;
+  max-width: 800px;
+  padding: 0 1vw;
+  margin: 0 auto;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3 {
+  margin: 2rem 0 1rem;
+}
+
+.entry-content p {
+  margin: 1rem 0 4rem;
+}
+
+.alignnone, .aligncenter, .alignleft, .alignright, .alignwide {
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  width: 92%;
+}
+
+h1.wp-block-heading {
+  margin: 4rem auto 2rem !important;
+}
+
+/*Kolorowanie linków*/
+a.to-the-top,
+li.menu-item span.icon,
+div.entry-categories-inner a {
+  color: #afa1c2 !important;
+}
+
+.color-accent,
+.color-accent-hover:hover,
+.color-accent-hover:focus,
+:root .has-accent-color,
+.has-drop-cap:not(:focus)::first-letter,
+.wp-block-button.is-style-outline,
+a {
+  color: #afa1c2 !important;
+  border: 0 !important;
+  text-decoration: none !important;
+}
+
+a.wp-block-social-link-anchor {
+  color: #fff !important;
+}
+
+button, .button, .faux-button, .wp-block-button__link, .wp-block-file .wp-block-file__button, input[type=button], input[type=reset], input[type=submit], .bg-accent, .bg-accent-hover:hover, .bg-accent-hover:focus, :root .has-accent-background-color, .comment-reply-link {
+  background-color: #afa1c2 !important;
+}
+
+.site-description,
+body:not(.overlay-header) .toggle-inner .toggle-text,
+.widget .post-date,
+.widget .rss-date,
+.widget_archive li,
+.widget_categories li,
+.widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
+  color: #fff !important;
+}
+
+.post-tags span a,
+.post-tags span.meta-icon {
+  color: #000 !important;
+  border: 0 !important;
+  text-decoration: none !important;
+}
+
+.header-inner,
+.singular .entry-header {
+  /* Nagłówek zmniejszony*/
+  padding: 1% 0% 15px 0% !important;
+}
+
+/*Liniki w SubMenu*/
+ul.sub-menu li.menu-item > a {
+  color: #000 !important;
+}
+
+/* UKRYTE */
+/* 'czytaj wieciej 'c */
+.wp-block-post-excerpt__more-link,
+#post-742 .featured-media,
+.wp-block-post-date,
+.wp-block-post-date,
+.post-sticky,
+.archive-title .color-accent,
+hr.styled-separator,
+hr.wp-block-separator {
+  display: none;
+}
+
+.entry-content {
+  /* content główny*/
+  padding-top: 15px;
+}
+
+.wp-block-latest-posts__featured-image img {
+  margin: auto;
+}
+
+ul.wp-block-latest-posts__list li {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.singular .featured-media {
+  margin-top: 0;
+  padding-bottom: 5px !important;
+  padding-top: 50px !important;
+}
+
+.wp-block-post-template > li {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.post-inner {
+  padding-top: 0.5rem !important;
+}
+
+header.entry-header h2.entry-title a {
+  text-decoration: none;
+}
+
+/*POPRAWA WYSWIETLANIA OBRAZU POSTA*/
+.singular .featured-media {
+  margin-top: 0;
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.singular .featured-media::before {
+  content: none;
+}
+
+/* LINIK NA CZARNYNM menu button*/
+/* .site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
+    color: #e890a9;
+} */
+/* TYTULY  KROPKI W MENU*/
+.header-footer-group {
+  color: #fff;
+}
+
+/* body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
+  color: #e890a9;
+} */
+/* NO BORDERS */
+.header-footer-group pre,
+.header-footer-group fieldset,
+.header-footer-group input,
+.header-footer-group textarea,
+.header-footer-group table,
+.header-footer-group table *,
+.footer-nav-widgets-wrapper,
+#site-footer,
+.menu-modal nav *,
+.footer-widgets-outer-wrapper,
+.footer-top,
+.modal-menu > li:last-child {
+  border-color: #fff;
+  border-width: 0px;
+  border: none;
+}
+
+/* LINIK NA CZARNYNM
+body:not(.overlay-header) .primary-menu > li > a, body:not(.overlay-header) .primary-menu > li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
+color: #e890a9;
+}
+
+/* LINIK NA tle*/
+/* .color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {
+  color: #e890a9;
+}  */
+/* SOCJALE TLO*/
+.social-icons a {
+  background-color: #fff !important;
+  cursor: auto !important;
+  color: #000 !important;
+}
+
+.social-icons a,
+#site-footer button:not(.toggle),
+#site-footer .button,
+#site-footer .faux-button,
+#site-footer .wp-block-button__link,
+#site-footer .wp-block-file__button,
+#site-footer input[type=button],
+#site-footer input[type=reset],
+#site-footer input[type=submit] {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+@media (min-width: 700px) {
+  h1, .heading-size-1 {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .entry-content > .alignwide:not(.wp-block-group.has-background),
+  .entry-content > .alignfull:not(.wp-block-group.has-background) {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
