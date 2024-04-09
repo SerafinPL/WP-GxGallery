@@ -3,7 +3,8 @@
 #### Theme Name:		 gx gallery
 #### Description:	 gx gallery is a child theme of twentytwenty
 #### Author:			   Kuba Koder
-#### Author URI:		 http://kubakoder.pl https://jackthecoder.dev/
+#### Author URI:		   http://kubakoder.pl 
+####                   https://jackthecoder.dev/
 #### Template:		   twentytwenty
 #### Version:		   1.5.5 
 
