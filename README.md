@@ -17,4 +17,4 @@ This project is used by gxgaleriasztuki.pl
 ## Author
 
 - [@SerafinPL](https://www.github.com/serafinpl)
-#### Author URI:		   http://kubakoder.pl 
+## Author URI:		   http://kubakoder.pl 
