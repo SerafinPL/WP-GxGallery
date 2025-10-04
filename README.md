@@ -1,4 +1,4 @@
-# Legacy Project gx gallery is a child theme of twentytwenty
+## Legacy Project gx gallery is a child theme of twentytwenty
 
 ### WordPress child theme & mails template for newsletter.
 ### Theme Name:		 gx gallery
@@ -13,6 +13,7 @@
 
 ### Used By
 This project is used by gxgaleriasztuki.pl
+##
 
 ### License: [MIT](https://choosealicense.com/licenses/mit/)
 ### Author: [@SerafinPL](https://www.github.com/serafinpl)
