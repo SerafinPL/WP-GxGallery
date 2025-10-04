@@ -15,7 +15,10 @@
 This project is used by gxgaleriasztuki.pl
 ##
 
-### License: [MIT](https://choosealicense.com/licenses/mit/)
-### Author: [@SerafinPL](https://www.github.com/serafinpl)
-### Author URI: [http://kubakoder.pl](http://kubakoder.pl)
+![Logo](https://kubakoder.pl/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffavicon.5d6e1adf.png&w=48&q=75)
+### 👨🏻‍💻 Author: [@SerafinPL](https://www.github.com/serafinpl)
+
+### 🌐 Author URI: [http://kubakoder.pl](http://kubakoder.pl)
+
 ##
+
