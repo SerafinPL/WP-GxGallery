@@ -1,7 +1,6 @@
 # Legacy Project gx gallery is a child theme of twentytwenty
 
 #### Theme Name:		 gx gallery
-#### Author URI:		   http://kubakoder.pl 
 #### Template:		   twentytwenty
 #### Version:		   1.5.5 
 
@@ -18,3 +17,4 @@ This project is used by gxgaleriasztuki.pl
 ## Author
 
 - [@SerafinPL](https://www.github.com/serafinpl)
+#### Author URI:		   http://kubakoder.pl 
