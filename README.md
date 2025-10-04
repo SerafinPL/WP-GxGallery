@@ -1,13 +1,20 @@
-# Legacy Project 
+# Legacy Project gx gallery is a child theme of twentytwenty
 
 #### Theme Name:		 gx gallery
-#### Description:	 gx gallery is a child theme of twentytwenty
-#### Author:			   Kuba Koder
 #### Author URI:		   http://kubakoder.pl 
-####                   https://jackthecoder.dev/
 #### Template:		   twentytwenty
 #### Version:		   1.5.5 
 
 ## WordPress child theme & mails template for newsletter.
 
-### https://gxgaleriasztuki.pl/
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Used By
+
+This project is used by gxgaleriasztuki.pl
+
+## Author
+
+- [@SerafinPL](https://www.github.com/serafinpl)
